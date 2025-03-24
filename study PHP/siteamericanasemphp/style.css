@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    font: 16px Arial, Tahoma;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgb(0, 80, 154);
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+}
+
+header img{
+    width: 230px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 15px;
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+main {
+    width: 960px;
+    margin: 30px auto;
+    flex: 1;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+.grid .coluna {
+    border: 1px solid #CCC;
+    margin: 10px;
+    box-shadow: 0 0 10px #ccc;
+    text-align: center;
+    padding: 10px;
+}
+
+.grid-2 .coluna img, .grid .coluna img {
+    width: 80%;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.grid-2 .coluna {
+    padding: 20px;
+}
+
+.coluna a{
+    font-style: none;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.valor {
+    font-size: xx-large;
+}
+
+#comprar{
+    border: 0;
+    background: rgb(2, 150, 0);
+    padding: 10px;
+    color: #FFF;
+    border-radius: 8px;
+    margin-left: 20px;
+    width: 150px;
+    font-size: medium;
+    transition: 1.0s;
+}
+
+#comprar:hover{
+    box-shadow: 0px 0px 25px 1px rgb(2, 150, 0);
+    transition: 0.3s;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(0, 80, 154);
+    margin-top: 10px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer h5{
+    color:#000000;
+    font-weight: 700;
+    font-size: medium;
+    margin: 1rem;
+}
+
+footer ul li {
+    list-style: none;
+    margin: 6px;
+}
+
+footer ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar-brand img{
+    width: 100px;
+    padding-bottom: 15px;
+}
+
+#contato-btn {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: normal;
+    background-color: #ffffff;
+    margin-top: 20px;
+    color: rgb(0, 80, 154);
+    font-weight: 700;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+#contato-btn:hover{
+    box-shadow: 0px 0px 25px 1px rgb(0, 80, 154);
+}
+
+footer ul li a:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#Fcontatos ul li i {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#copy{
+    margin-right: 40px;
+    color: #000000;
+}
+
+#copy:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+label {
+    width: 100%;
+    font-weight: bold;
+}
+
+input, textarea {
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10px;;
+}
+
+button {
+    border: 0;
+    background: rgb(0, 80, 154);
+    padding: 10px;
+    color: #FFF;
+    border-radius: 10px;
+    transition: 1.0s;
+}
+
+button:hover{
+    box-shadow: 0px 0px 25px 1px rgb(0, 80, 154);
+    transition: 0.3s;
+}
